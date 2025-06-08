@@ -4,23 +4,40 @@
 ![Screenshot 2025-06-08 104107](https://github.com/user-attachments/assets/c95b3424-bf1c-40db-84bb-ea94151480d4)
 
 A modern onboarding wizard and dashboard interface built with React. Features multi-step form collection, data persistence, and responsive design.
+*Modern interface with light/dark theme support*
 
-## ✨ Features
+A responsive React application featuring:
+- Multi-step onboarding wizard
+- Interactive dashboard with real-time data
+- API integration with Axios
+- Theme customization
 
-- **3-step onboarding flow** (Personal, Business, Preferences)
-- **Interactive dashboard** with user stats
-- **Data persistence** using localStorage
-- **Responsive design** works on all devices
-- **Theme support** (light/dark modes)
-- **Animated transitions** between steps
+## ✨ Key Features
+- **3-Step Onboarding Flow**:
+  - Personal Information (Form validation)
+  - Business Details (Dynamic fields)
+  - Preferences (Theme/layout selection)
+   
+- **Dashboard Metrics**:
+  - Team members count
+  - Active projects
+  - Notifications
+  - Weekly progress charts
+   
+- **API Integration**:
+  - Axios for HTTP requests
+  - Mock API service for development
+  - Real API ready structure
 
 ## 🛠 Tech Stack
-
-- **Frontend**: React 18
-- **Styling**: CSS (with pastel color scheme)
-- **Charts**: Recharts
-- **State Management**: React hooks + localStorage
-- **Fonts**: Google Fonts (Montserrat + Poppins)
+| Category        | Technologies Used |
+|-----------------|-------------------|
+| **Frontend**    | React 18          |
+| **Styling**     | CSS + Pastel Theme|
+| **Data Fetch**  | Axios             |
+| **Charts**      | Recharts          |
+| **State**       | React Hooks + localStorage |
+| **Fonts**       | Google Fonts (Montserrat + Poppins) |
 
 ## 🚀 Setup Instructions
 
