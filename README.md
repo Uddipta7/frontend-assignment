@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Onboarding & Dashboard Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2025-06-08 104049](https://github.com/user-attachments/assets/2a00f4c6-1382-439f-9485-9fb4702035b8)
+![Screenshot 2025-06-08 104107](https://github.com/user-attachments/assets/c95b3424-bf1c-40db-84bb-ea94151480d4)
 
-## Available Scripts
+A modern onboarding wizard and dashboard interface built with React. Features multi-step form collection, data persistence, and responsive design.
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- **3-step onboarding flow** (Personal, Business, Preferences)
+- **Interactive dashboard** with user stats
+- **Data persistence** using localStorage
+- **Responsive design** works on all devices
+- **Theme support** (light/dark modes)
+- **Animated transitions** between steps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React 18
+- **Styling**: CSS (with pastel color scheme)
+- **Charts**: Recharts
+- **State Management**: React hooks + localStorage
+- **Fonts**: Google Fonts (Montserrat + Poppins)
 
-### `npm test`
+## 🚀 Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/onboarding-dashboard.git
+   cd onboarding-dashboard
 
-### `npm run build`
+2. Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Run the development server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ``` bash
+   npm start
 
-### `npm run eject`
+4. Open in browser
+5. 
+http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📸 Screenshots
+Onboarding Flow
+![Screenshot 2025-06-08 103843](https://github.com/user-attachments/assets/17629dd3-0687-4af9-b87c-33c7095b02a5)
+![Screenshot 2025-06-08 104016](https://github.com/user-attachments/assets/62d75c0b-d814-4c3a-aea7-442a1856480f)
+![Screenshot 2025-06-08 104028](https://github.com/user-attachments/assets/bb8713db-61db-45f1-a855-c205ad701671)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dashboard [Dark Theme]
+![Screenshot 2025-06-08 104228](https://github.com/user-attachments/assets/246ac1e1-1d45-49fd-8d9b-99ca1e53c71d)
+![Screenshot 2025-06-08 104246](https://github.com/user-attachments/assets/e93d84d5-d1b6-4d6f-987a-c1efc8ba4c71)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🎨 Design Highlights
+Pastel color scheme for modern look
 
-## Learn More
+Smooth animations between steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Interactive charts with Recharts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Responsive layout adapts to all screens
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📂 Project Structure
+text
+src/
+├── components/
+│   ├── Onboarding/
+│   ├── Dashboard/
+├── assets/
+│   ├── screenshots/
+├── styles.css
+├── App.js
