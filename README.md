@@ -39,8 +39,7 @@ A modern onboarding wizard and dashboard interface built with React. Features mu
    ``` bash
    npm start
 
-4. Open in browser
-5. 
+4. Open in browser 
 http://localhost:3000
 
 📸 Screenshots
