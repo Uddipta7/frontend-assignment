@@ -51,7 +51,6 @@ const OnboardingWizard = ({ onComplete }) => {
         }
         break;
       case 3:
-        // Preferences step typically doesn't need validation
         break;
       default:
         break;
@@ -76,7 +75,6 @@ const OnboardingWizard = ({ onComplete }) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-    // Clear error when user starts typing
     if (stepErrors[name]) {
       setStepErrors(prev => ({ ...prev, [name]: '' }));
     }

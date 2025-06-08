@@ -1,4 +1,4 @@
-// Install first: npm install recharts
+
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const chartData = [
@@ -9,7 +9,6 @@ const chartData = [
   { name: 'Fri', value: 50 }
 ];
 
-// Add this to your Dashboard component:
 <div className="card">
   <h3>Weekly Progress</h3>
   <BarChart width={500} height={300} data={chartData}>

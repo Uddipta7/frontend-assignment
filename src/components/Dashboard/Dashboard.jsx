@@ -11,7 +11,7 @@ import {
 } from 'recharts';
 import '../../styles.css';
 
-// Mock API service (could be moved to separate file)
+// Mock API service 
 const api = {
   getDashboardStats: () => new Promise(resolve => {
     setTimeout(() => {
